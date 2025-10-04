@@ -22,7 +22,9 @@ RUN apt-get update && apt-get install -y \
 
 # Copy backend files
 COPY backend/requirements.txt ./requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+#RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --use-deprecated=legacy-resolver -r requirements.txt
+
 
 # Copy backend code
 COPY . .
