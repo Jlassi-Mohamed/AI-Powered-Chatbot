@@ -140,77 +140,6 @@ After successful setup:
 1. Create a superuser account: `python manage.py createsuperuser`
 2. Access the Django admin panel at http://localhost:8000/admin
 3. Start building and testing your chatbot!
-## Usage Guide
-
-### Getting Started
-
-#### 1. Register or Login
-
-- Navigate to the application homepage
-- Click on **Register** to create a new account or **Login** if you already have one
-- Fill in your credentials (email, username, and password for registration)
-- Upon successful login, you'll be redirected to the chat interface
-
-#### 2. Language Selection
-
-The application supports both English and Arabic languages:
-
-- **At Login Page:** Use the language dropdown menu to select your preferred language
-- **In Application:** Access the language switcher in the navigation bar to change languages at any time
-- All interface elements will update to reflect your language choice
-
-#### 3. Starting a Chat
-
-To begin a conversation with the AI:
-
-1. Select your preferred AI model from the available options:
-   - **OpenAI GPT-4** - Advanced conversational AI
-   - **LLaMA** - Meta's open-source language model
-   - **DeepSeek** - Specialized AI model
-
-2. Type your message in the chat input field
-3. Press **Enter** or click the **Send** button
-4. The AI will respond based on the selected model
-
-#### 4. Managing Conversations
-
-##### Continue Existing Conversations
-- View your conversation history in the sidebar
-- Click on any previous conversation to resume where you left off
-- All messages are preserved and can be accessed anytime
-
-##### Start New Conversations
-- Click the **New Chat** button to begin a fresh conversation
-- Each conversation maintains its own context and history
-- You can switch between multiple conversations seamlessly
-
-#### 5. User Profile and Interests
-
-The application automatically analyzes your conversations to personalize your experience:
-
-##### View Your Profile
-- Click on your username or profile icon in the navigation bar
-- Access your account settings and personal information
-
-##### Automatic Interest Detection
-- The system automatically generates interest tags based on your conversation topics
-- Examples of interests include: "football", "politics", "technology", "health", etc.
-- These interests help personalize your AI interactions
-- View your interests by navigating to the **Interests** section in your profile
-
-### Tips for Better Conversations
-
-- **Be specific:** Clear and detailed questions get better responses
-- **Provide context:** Help the AI understand your needs by giving relevant background
-- **Try different models:** Each AI model has unique strengths
-- **Use follow-ups:** Continue the conversation to dive deeper into topics
-
-### Privacy and Data
-
-- All conversations are securely stored and linked to your account
-- Only you can access your conversation history
-- Interest tags are generated automatically and privately
-- You can delete conversations at any time
 ## API Documentation
 
 ### Authentication Endpoints
@@ -459,3 +388,74 @@ The 1000-tag limit per user serves multiple purposes:
 - Asynchronous AI model calls
 - Progressive loading for better UX
 - Request throttling to prevent abuse
+## Usage Guide
+
+### Getting Started
+
+#### 1. Register or Login
+
+- Navigate to the application homepage
+- Click on **Register** to create a new account or **Login** if you already have one
+- Fill in your credentials (email, username, and password for registration)
+- Upon successful login, you'll be redirected to the chat interface
+
+#### 2. Language Selection
+
+The application supports both English and Arabic languages:
+
+- **At Login Page:** Use the language dropdown menu to select your preferred language
+- **In Application:** Access the language switcher in the navigation bar to change languages at any time
+- All interface elements will update to reflect your language choice
+
+#### 3. Starting a Chat
+
+To begin a conversation with the AI:
+
+1. Select your preferred AI model from the available options:
+   - **OpenAI GPT-4** - Advanced conversational AI
+   - **LLaMA** - Meta's open-source language model
+   - **DeepSeek** - Specialized AI model
+
+2. Type your message in the chat input field
+3. Press **Enter** or click the **Send** button
+4. The AI will respond based on the selected model
+
+#### 4. Managing Conversations
+
+##### Continue Existing Conversations
+- View your conversation history in the sidebar
+- Click on any previous conversation to resume where you left off
+- All messages are preserved and can be accessed anytime
+
+##### Start New Conversations
+- Click the **New Chat** button to begin a fresh conversation
+- Each conversation maintains its own context and history
+- You can switch between multiple conversations seamlessly
+
+#### 5. User Profile and Interests
+
+The application automatically analyzes your conversations to personalize your experience:
+
+##### View Your Profile
+- Click on your username or profile icon in the navigation bar
+- Access your account settings and personal information
+
+##### Automatic Interest Detection
+- The system automatically generates interest tags based on your conversation topics
+- Examples of interests include: "football", "politics", "technology", "health", etc.
+- These interests help personalize your AI interactions
+- View your interests by navigating to the **Interests** section in your profile
+
+### Tips for Better Conversations
+
+- **Be specific:** Clear and detailed questions get better responses
+- **Provide context:** Help the AI understand your needs by giving relevant background
+- **Try different models:** Each AI model has unique strengths
+- **Use follow-ups:** Continue the conversation to dive deeper into topics
+
+### Privacy and Data
+
+- All conversations are securely stored and linked to your account
+- Only you can access your conversation history
+- Interest tags are generated automatically and privately
+- You can delete conversations at any time
